@@ -1,0 +1,31 @@
+@import "tailwindcss";
+/* App.css */
+.light-mode {
+  background: #fff;
+  color: #222;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #181818;
+  color: #f5f5f5;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+:root {
+  --link-light: #701a75;   /* morado */
+  --link-dark: #fff;       /* blanco */
+}
+
+.light-mode .nav-link {
+  color: var(--link-light);
+}
+
+.dark-mode .nav-link {
+  color: var(--link-dark);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

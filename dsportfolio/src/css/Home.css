@@ -1,0 +1,43 @@
+.purple {
+    color:#701a75
+}
+.home-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  margin-top: 4rem; /* <-- Agrega este margen superior */
+}
+
+@media (min-width: 768px) {
+  .home-intro {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem; /* <-- Más espacio arriba en pantallas grandes */
+  }
+  .home-intro-text {
+    flex: 1;
+
+  }
+  .home-intro-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .home-intro-img img {
+    max-width: 100%;
+    width: 70%;
+    height: auto;
+    border-radius: 1.5rem;
+  }
+}
+.Homeintro2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    margin-top: 4rem; /* <-- Agrega este margen superior */
+}
