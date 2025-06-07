@@ -2,60 +2,33 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../css/Home.css";
-import PngHome from "../assets/pngHome.png"
-
+import FotoPerfil from "../assets/FotoCard.jpeg";
 const Home = () => {
   return (
     <div className="home-bg">
       <Header />
       <div className="home-intro">
         <div className="home-intro-text">
-        <h1>Hi!<span className="wave-hand">👋🏻</span><br /><br /><b></b> i'm <span className="purple">Denise Sanchez</span></h1>
+        <h1>Hola!<span className="wave-hand">👋🏻</span><br /><br /><b></b> Soy <span className="purple">Denise Sanchez</span></h1>
         </div>
         <div className="home-intro-img">
-          <img src={PngHome} alt="iconohome" />
-        </div> 
+          <img src={FotoPerfil} alt="iconohome" />
+        </div>
       </div>
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <h1 className="Homeintro2">LET ME INTRODUCE <span className="purple">MYSELF</span> <br />
-      
-      </h1>
-      <p className="home-about-body">
-        Soy una programadora apasionada con experiencia en el desarrollo de
-        aplicaciones web.
-        <br />
-        <br />
-        Me especializo en
-        <i>
-          <b className="purple"> JavaScript, HTML y CSS </b>
-        </i>
-        , creando sitios atractivos y funcionales
-        <br />
-        <br />
-        Además, tengo conocimientos en
-        <i>
-          <b className="purple"> React.js y Node.js</b>
-        </i> para crear experiencias de usuario dinámicas e interactivas.
-        {" "}
-        <br />
-        <br />
-        <i>
-          <b>Mi objetivo es seguir aprendiendo y creando soluciones creativas que hagan la diferencia. 
-          </b>
-        </i>  <br /> <br />
-        Si quieres saber más sobre mí o colaborar en algún proyecto,
-      </p>
-      <h4 className="White">¡no dudes en contactarme!</h4>
 
+
+      <div className="home-bloque">
+        <h1 className="Homeintro2">
+          Dejame <span className="purple"> Presentarme </span>
+        </h1>
+        <p className="TextoHome">
+          Soy Denise,estudiante de programacion enfocada en crear soluciones digitales efectivas y con impacto.
+          Me apasiona el aprendizaje constante y disfruto trabajar en proyectos que requieren creatividad y análisis. Siempre busco aportar valor a través de un código claro y bien estructurado.
+          ¡Te invito a conocer mis proyectos y a colaborar juntos para transformar ideas en realidad!
+        </p>
+      </div>
       <Footer />
     </div>
   );

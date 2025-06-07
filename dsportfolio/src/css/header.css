@@ -4,7 +4,7 @@
 
 .nav-link {
   position: relative;
-  color: #fff;
+  color: #701a75;
   transition: color 0.2s;
   text-decoration: none;
   font-weight: 600;
@@ -32,4 +32,7 @@
 .nav-link:hover::after,
 .nav-link:focus::after {
   width: 100%;
+}
+.purple{
+  color: #701a75
 }

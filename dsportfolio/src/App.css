@@ -1,5 +1,4 @@
 @import "tailwindcss";
-/* App.css */
 .light-mode {
   background: #fff;
   color: #222;
@@ -14,8 +13,8 @@
   transition: background 0.3s, color 0.3s;
 }
 :root {
-  --link-light: #701a75;   /* morado */
-  --link-dark: #fff;       /* blanco */
+  --link-light: #701a75;  
+  --link-dark: #fff;      
 }
 
 .light-mode .nav-link {
