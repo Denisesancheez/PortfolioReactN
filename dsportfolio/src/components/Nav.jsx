@@ -33,7 +33,16 @@ const Nav = () => {
             <FaFolderOpen /> Projects
           </Link>
         </li>
-        <li><button
+        <li>
+          <Link
+            to="/Contact"
+            className="nav-link flex items-center gap-2"
+          >
+            <FaUser /> Contact
+          </Link>
+        </li>
+        <li>
+        <button
   onClick={() => {
     cambiarColor();
     cambiarTexto();

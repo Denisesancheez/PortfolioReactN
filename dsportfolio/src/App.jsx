@@ -8,7 +8,7 @@ import Projects from './pages/Projects.jsx'
 import useStore from './store/useStore.js'
 import { Row, Col } from "react-bootstrap"
 import { FaRegMoon, FaRegSun } from "react-icons/fa";
-
+import Contact from './pages/Contact.jsx'
 
 
 const App = () => {
@@ -37,6 +37,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Aboutme" element={<Aboutme />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contact" element={<Contact />} />
 
       </Routes>
     
